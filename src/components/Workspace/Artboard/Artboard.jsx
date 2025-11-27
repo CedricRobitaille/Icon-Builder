@@ -1,9 +1,13 @@
+import "./Artboard.css";
 
+const Artboard = ({ artboardStyle }) => {
 
-const Artboard = () => {
+  const artboardComputeStyle = {
+    height: `${artboardStyle?.scale ?? 50}%`,
+  }
 
   return (
-    <div className="artboard">
+    <div className="artboard" style={artboardComputeStyle}>
 
     </div>
   )

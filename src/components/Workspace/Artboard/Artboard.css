@@ -1,0 +1,8 @@
+.artboard {
+  position: absolute;
+  background-color: #e4e5e7;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+}
